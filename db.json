@@ -1,0 +1,100 @@
+{
+    "diagramData": [
+        {
+            "id": "1",
+            "type": "input",
+            "parentTo": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "childTo": null,
+            "label": "A",
+            "text": "some text",
+            "svg": {
+                "width": "100",
+                "height": "100",
+                "style": "fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)",
+                "x": "100",
+                "y": "50",
+                "fill": "#964949"
+            }
+        },
+        {
+            "id": "2",
+            "type": "input",
+            "parentTo": null,
+            "childTo": [
+                "1"
+            ],
+            "label": "edge with arrow head",
+            "text": "some text",
+            "svg": {
+                "r": "45",
+                "style": null,
+                "fill": "pink",
+                "strokeWidth": "5px",
+                "stroke": "hotpink",
+                "cx": "250",
+                "cy": "250"
+            }
+        },
+        {
+            "id": "3",
+            "type": "input",
+            "parentTo": null,
+            "childTo": [
+                "1"
+            ],
+            "label": "edge with arrow head",
+            "text": "some text",
+            "svg": {
+                "r": "45",
+                "style": null,
+                "fill": "pink",
+                "strokeWidth": "5px",
+                "stroke": "hotpink",
+                "cx": "150",
+                "cy": "250"
+            }
+        },
+        {
+            "id": "4",
+            "type": "input",
+            "parentTo": null,
+            "childTo": [
+                "1"
+            ],
+            "label": "edge with arrow head",
+            "text": "some text",
+            "svg": {
+                "r": "45",
+                "style": null,
+                "fill": "pink",
+                "strokeWidth": "5px",
+                "stroke": "hotpink",
+                "cx": "350",
+                "cy": "350"
+            }
+        },
+        {
+            "id": "5",
+            "type": "input",
+            "parentTo": null,
+            "childTo": [
+                "1"
+            ],
+            "label": "edge with arrow head",
+            "text": "some text",
+            "svg": {
+                "width": "100",
+                "height": "100",
+                "style": "fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)",
+                "x": "350",
+                "y": "200",
+                "fill": "#e03997"
+            }
+        }
+    ]
+}
